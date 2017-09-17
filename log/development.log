@@ -1,0 +1,191 @@
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/jacobgiberson/Desktop/playground/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/jacobgiberson/Desktop/playground/config/initializers/new_framework_defaults.rb:21)
+  [1m[35m (161.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "playground_dev"[0m
+  [1m[35m (117.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "playground_test"[0m
+  [1m[35m (236.6ms)[0m  [1m[35mCREATE DATABASE "playground_dev" ENCODING = 'unicode'[0m
+  [1m[35m (235.3ms)[0m  [1m[35mCREATE DATABASE "playground_test" ENCODING = 'unicode'[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/jacobgiberson/Desktop/playground/config/initializers/new_framework_defaults.rb:21)
+  [1m[35m (94.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7747368071564447655)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (18.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-09-17 23:17:43.499226"], ["updated_at", "2017-09-17 23:17:43.499226"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7747368071564447655)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/jacobgiberson/Desktop/playground/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for ::1 at 2017-09-17 19:18:25 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 177ms (Views: 8.4ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/jacobgiberson/Desktop/playground/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for ::1 at 2017-09-17 19:21:38 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 4.4ms)
+
+
+Started GET "/" for ::1 at 2017-09-17 19:21:49 -0400
+  
+ArgumentError (must be called with a path and/or options):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2017-09-17 19:23:17 -0400
+  
+ArgumentError (must be called with a path and/or options):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2017-09-17 19:23:25 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 6ms (Views: 4.2ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/jacobgiberson/Desktop/playground/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for ::1 at 2017-09-17 19:25:41 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobgiberson/.gem/ruby/2.2.4/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms)
+
+
+Started GET "/greetings/hello" for ::1 at 2017-09-17 19:25:52 -0400
+Processing by GreetingsController#hello as HTML
+  Rendering greetings/hello.html.erb within layouts/application
+  Rendered greetings/hello.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 255ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/babel-source-5.8.35/lib
+  /Users/jacobgiberson/Desktop/playground/app/assets/config
+  /Users/jacobgiberson/Desktop/playground/app/assets/images
+  /Users/jacobgiberson/Desktop/playground/app/assets/javascripts
+  /Users/jacobgiberson/Desktop/playground/app/assets/stylesheets
+  /Users/jacobgiberson/Desktop/playground/vendor/assets/javascripts
+  /Users/jacobgiberson/Desktop/playground/vendor/assets/stylesheets
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/foundation-rails-6.4.1.2/vendor/assets/_vendor
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/foundation-rails-6.4.1.2/vendor/assets/js
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/foundation-rails-6.4.1.2/vendor/assets/scss
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/actionview-5.1.4/lib/assets/compiled):
+    4:     <title>Playground</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2479335564055578442_70134457083900'
+Started GET "/greetings/hello" for ::1 at 2017-09-17 19:26:06 -0400
+Processing by GreetingsController#hello as HTML
+  Rendering greetings/hello.html.erb within layouts/application
+  Rendered greetings/hello.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/babel-source-5.8.35/lib
+  /Users/jacobgiberson/Desktop/playground/app/assets/config
+  /Users/jacobgiberson/Desktop/playground/app/assets/images
+  /Users/jacobgiberson/Desktop/playground/app/assets/javascripts
+  /Users/jacobgiberson/Desktop/playground/app/assets/stylesheets
+  /Users/jacobgiberson/Desktop/playground/vendor/assets/javascripts
+  /Users/jacobgiberson/Desktop/playground/vendor/assets/stylesheets
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/foundation-rails-6.4.1.2/vendor/assets/_vendor
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/foundation-rails-6.4.1.2/vendor/assets/js
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/foundation-rails-6.4.1.2/vendor/assets/scss
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/actioncable-5.1.4/lib/assets/compiled
+  /Users/jacobgiberson/.gem/ruby/2.2.4/gems/actionview-5.1.4/lib/assets/compiled):
+    4:     <title>Playground</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2479335564055578442_70134486187380'
+Started GET "/greetings/hello" for ::1 at 2017-09-17 19:27:14 -0400
+Processing by GreetingsController#hello as HTML
+  Rendering greetings/hello.html.erb within layouts/application
+  Rendered greetings/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 232ms (Views: 230.9ms)
+
+
+Started GET "/greetings/hello" for ::1 at 2017-09-17 19:27:49 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/greetings/hello" for ::1 at 2017-09-17 19:28:01 -0400
+  
+NameError (undefined local variable or method `greetings' for #<ActionDispatch::Routing::Mapper:0x007f92ea609d78>):
+  
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/greetings/hello" for ::1 at 2017-09-17 19:28:09 -0400
+  
+SyntaxError (/Users/jacobgiberson/Desktop/playground/config/routes.rb:2: unknown regexp options - hll):
+  
+config/routes.rb:2: unknown regexp options - hll
+Started GET "/greetings/hello" for ::1 at 2017-09-17 19:28:22 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2017-09-17 19:30:21 -0400
+  
+SyntaxError (/Users/jacobgiberson/Desktop/playground/config/routes.rb:2: syntax error, unexpected =>, expecting keyword_end
+  root => 'greetings/hello'
+         ^):
+  
+config/routes.rb:2: syntax error, unexpected =>, expecting keyword_end
+Started GET "/" for ::1 at 2017-09-17 19:30:27 -0400
+  
+SyntaxError (/Users/jacobgiberson/Desktop/playground/config/routes.rb:2: syntax error, unexpected =>, expecting keyword_end
+  root => 'greetings/hello'
+         ^):
+  
+config/routes.rb:2: syntax error, unexpected =>, expecting keyword_end
+Started GET "/" for ::1 at 2017-09-17 19:30:34 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for ::1 at 2017-09-17 19:31:31 -0400
+Processing by GreetingsController#hello as HTML
+  Rendering greetings/hello.html.erb within layouts/application
+  Rendered greetings/hello.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 77ms (Views: 75.2ms)
+
+
+Started GET "/" for ::1 at 2017-09-17 19:31:40 -0400
+Processing by GreetingsController#hello as HTML
+  Rendering greetings/hello.html.erb within layouts/application
+  Rendered greetings/hello.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 17.3ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/jacobgiberson/Documents/GitHub/rails-playground/config/initializers/new_framework_defaults.rb:21)
