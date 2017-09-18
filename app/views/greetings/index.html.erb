@@ -1,0 +1,9 @@
+<h1>Greetings</h1>
+
+<input id="search-word" name="search_word" placeholder="bodacious" />
+<label for="search-word">enter the word you are curious about</label>
+
+<li class="definition-list featured"> <%= @def_array[0] %></li>
+<% for x in 1...@def_array.length %>
+	<li class="definition-list secondary"> <%= @def_array[x] %></li>
+<% end %>

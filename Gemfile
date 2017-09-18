@@ -8,20 +8,13 @@ end
 gem 'rails', '5.1.4'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
-gem 'devise'
 gem 'foundation-rails'
-gem 'ransack'
-gem 'faker'
-gem 'as-duration'
-gem 'kaminari'
-gem 'carrierwave'
-gem 'fog'
+gem 'nokogiri'
+gem 'rest-client'
 
 group :test do
   gem 'coveralls', require: false
-  gem 'poltergeist'
   gem 'database_cleaner'
 end
 

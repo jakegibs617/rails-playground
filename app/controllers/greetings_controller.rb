@@ -1,4 +1,9 @@
+require 'greetings'
+
 class GreetingsController < ApplicationController
-  def hello
+  def index
+
+    @def_array = ModelApiUrbanDictionary.retrieve_results("lite")
+
   end
 end
