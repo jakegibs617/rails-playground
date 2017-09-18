@@ -15,12 +15,12 @@ ActiveRecord::Schema.define(version: 20170918010730) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "greetings", force: :cascade do |t|
+  create_table "model_api_urban_dictionary", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "model_for_my_apis", force: :cascade do |t|
+  create_table "search_words", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe GreetingsController, type: :controller do
+RSpec.describe SearchWordsController, type: :controller do
 
-  describe "GET #hello" do
+  describe "GET #index" do
     it "returns http success" do
-      get :hello
+      get :index
       expect(response).to have_http_status(:success)
     end
   end
