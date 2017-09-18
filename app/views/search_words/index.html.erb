@@ -1,9 +1,11 @@
-<h1>Greetings</h1>
+<h1>Search Words</h1>
 
-<input id="search-word" name="search_word" placeholder="bodacious" />
-
-
-
+<%= form_tag do %>
+  <%= text_field_tag :word %>
+  <%= submit_tag 'Search' %>
+<% end %>
+  
+<p> searched word: <%= @word %> </p> 
 
 <li class="definition-list featured"> <%= @def_array[0] %></li>
 <% for x in 1...@def_array.length %>
