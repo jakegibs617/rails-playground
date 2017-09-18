@@ -1,7 +1,6 @@
 class SearchWordsController < ApplicationController
   def index
-  	@word = "lite"
+  	@word = 'meh'
     @def_array = ModelApiUrbanDictionary.retrieve_results(@word)
   end
-
 end
