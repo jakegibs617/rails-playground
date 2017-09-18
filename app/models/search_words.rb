@@ -1,4 +1,0 @@
-class SearchWords < ApplicationRecord
-
-end
-
